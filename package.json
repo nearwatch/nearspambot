@@ -1,0 +1,23 @@
+{
+  "name": "nearspambot",
+  "version": "1.0.0",
+  "description": "Telegram bot helps you to send Near NFTs to address list in a few clicks",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf":"^3.38.0",
+    "dotenv":"^6.2.0",
+    "node-fetch":"^2.3.0",
+    "stream":"^0.0.2",
+    "form-data":"^4.0.0",
+    "near-api-js":"^0.41.0"
+  },
+  "engines": {
+    "node":"12.16.2",
+    "npm": "6.14.4"
+  },
+  "author": "Near.Watch",
+  "license": "MIT"
+}
